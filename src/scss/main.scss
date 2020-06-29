@@ -3,11 +3,83 @@
 @import "_variables";
 @import "modules/hello.scss";
 
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
 body {
-  background: $wtf;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
+	background: #3767ad;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.button_minus {
+	width: 184px;
+	height: 23px;
+	margin-top: 37px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+  color: #f5e5e7;
+  background-color: transparent;
+  border: none;
+}
+
+.button_plus {
+	width: 216px;
+	height: 47px;
+	background: #ffffff;
+	border-radius: 4px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	border: 0px;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 48px;
+}
+
+.header {
+	font-family: "Roboto", sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 55px;
+	margin-top: 87px;
+	margin-bottom: 68px;
+}
+
+.paragraph {
+	position: absolute;
+	left: 38.13%;
+	right: 38.4%;
+	top: 39.04%;
+	bottom: 48.89%;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 112px;
+	line-height: 131px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: #000000;
 }

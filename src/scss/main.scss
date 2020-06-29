@@ -19,7 +19,9 @@ body {
 	justify-content: center;
 }
 
-.button_minus {
+.container__button-minus {
+  display: block;
+  margin: 0 auto;
 	width: 184px;
 	height: 23px;
 	margin-top: 37px;
@@ -28,12 +30,14 @@ body {
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 16px;
-  color: #f5e5e7;
-  background-color: transparent;
-  border: none;
+	color: #f5e5e7;
+	background-color: transparent;
+	border: none;
 }
 
-.button_plus {
+.container__button-plus {
+  display: block;
+  margin: 0 auto;
 	width: 216px;
 	height: 47px;
 	background: #ffffff;
@@ -45,12 +49,14 @@ body {
 	border: 0px;
 }
 
-.container {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	margin-top: 48px;
+.glass {
+	width: 280px;
+  height: 280px;
+  background: url(../assets/img/water-glass.svg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 48px;
 }
 
 .header {
@@ -66,12 +72,7 @@ body {
 	margin-bottom: 68px;
 }
 
-.paragraph {
-	position: absolute;
-	left: 38.13%;
-	right: 38.4%;
-	top: 39.04%;
-	bottom: 48.89%;
+.glass__counter {
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: 500;
